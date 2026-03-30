@@ -18,12 +18,11 @@ This project focuses on understanding backend fundamentals like routing, HTTP me
 ---
 
 ## Screenshots
+<img width="1900" height="907" alt="image" src="https://github.com/user-attachments/assets/01fd2a92-7ef9-486b-8dc7-0fa4ddd95783" />
+<img width="1910" height="895" alt="image" src="https://github.com/user-attachments/assets/eb922318-136e-4aa1-9f44-6917dfea6dd2" />
+<img width="1919" height="885" alt="image" src="https://github.com/user-attachments/assets/062be908-4e81-4b64-b963-93c46ebd371f" />
+<img width="1878" height="891" alt="image" src="https://github.com/user-attachments/assets/c352e959-e90c-4c70-aeae-b27a770e13d8" />
 
-> Add your screenshots here 👇
-
-![Home Page](./screenshots/home.png)
-![Create Post](./screenshots/create.png)
-![Edit Post](./screenshots/edit.png)
 
 ---
 
