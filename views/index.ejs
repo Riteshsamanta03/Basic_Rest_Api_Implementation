@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knowledge Hub</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+<div style="height: 40px;"> </div>
+  <div class="header">
+    <h1 class="title">Knowledge Hub</h1>
+    <a href="/posts/new" class="create-btn">Create New Post</a>
+</div>
+<div style="height: 50px;"> </div>
+    <div class="container">
+        <% for(post of posts) { %>
+
+            <div class="card">
+                <h3>@<%= post.username %>
+                </h3>
+
+                <img src="<%= post.image %>" alt="post image">
+
+                <p style="white-space: pre-line;"><%= post.caption %></p>
+
+                <div class="btn-group">
+                    <a href="/posts/<%= post.id %>" class="btn view">View</a>
+                    <a href="/posts/<%= post.id %>/edit" class="btn edit">Edit</a>
+
+                    <form method="post" action="/posts/<%= post.id %>?_method=DELETE">
+                        <button class="btn delete">Delete</button>
+                    </form>
+                </div>
+            </div>
+
+            <% } %>
+    </div>
+    
+    <div style="height: 100px;"> </div>
+   
+
+</body>
+
+</html>
